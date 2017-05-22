@@ -1,0 +1,29 @@
+{
+  "name": "mta-dashboard",
+  "version": "1.0.0",
+  "description": "Performant mobile web site with instant transit info",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel api -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffreyyip/mta-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geoffreyyip/mta-dashboard/issues"
+  },
+  "homepage": "https://github.com/geoffreyyip/mta-dashboard#readme",
+  "dependencies": {
+    "axios": "^0.16.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
