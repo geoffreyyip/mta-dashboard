@@ -41,6 +41,8 @@ Example call: `http://bustime.mta.info/api/siri/stop-monitoring.json?key={{KEY}}
 }
 ```
 
+Note: `StopMonitoringDelivery[0]` will not contain a `MonitoredStopVisit` on errors. Instead it will contain an `ErrorCondition` property.
+
 ### Monitored Vehicle Journey
 
 ```JSON
