@@ -20,7 +20,11 @@ function buildRequest(route, stop, maxResults) {
 
 // synchronous, is called from within the promise
 function extractArrivalInfo(data) {
-  const stopVisits = data.Siri.ServiceDelivery.StopMonitoringDelivery[0].MonitoredStopVisit;
+  const stopVisits = data
+    .Siri
+    .ServiceDelivery
+    .StopMonitoringDelivery[0]
+    .MonitoredStopVisit;
 
   return stopVisits.map((stopVisit) => {
     return stopVisit.MonitoredVehicleJourney.MonitoredCall;
