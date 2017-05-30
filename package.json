@@ -21,9 +21,5 @@
   "dependencies": {
     "axios": "^0.16.1",
     "moment": "^2.18.1"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.5.1"
   }
 }
