@@ -17,8 +17,7 @@ app.set('view engine', 'nunjucks');
 
 // routes
 app.get('/', (req, res) => {
-  // hard-coded for sanity testing
-  nextBusArrivals('MTA NYCT_B63', 308209)
+  nextBusArrivals(req.query.route, req.query.stop)
     .then((arrivals) => {
       res.render('index.html', {arrivals});
     });
