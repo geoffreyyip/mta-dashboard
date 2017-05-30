@@ -20,6 +20,8 @@
   "homepage": "https://github.com/geoffreyyip/mta-dashboard#readme",
   "dependencies": {
     "axios": "^0.16.1",
-    "moment": "^2.18.1"
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "nunjucks": "^3.0.1"
   }
 }
