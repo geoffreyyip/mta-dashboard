@@ -1,7 +1,7 @@
-import axios from 'axios';
-import moment from 'moment';
+const axios = require('axios');
+const moment = require('moment');
 
-import {keys, bustime} from "./config.js";
+const {keys, bustime} = require("./config.js");
 
 function buildRequest(route, stop, maxResults) {
   return {
@@ -55,4 +55,4 @@ function nextBusArrivals(route, stop, maxResults=2) {
     })
 }
 
-export default nextBusArrivals;
+module.exports = nextBusArrivals;
