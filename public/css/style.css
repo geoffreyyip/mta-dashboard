@@ -1,0 +1,38 @@
+/* Reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base Styles */
+body {
+  background: #4D5357;
+  color: #fff;
+  font: 16px/ 1.5 Helvetica, Arial, sans-serif ;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Bus Arrivals */
+.busArrivals {
+  margin: 0 16px;
+}
+
+.busArrivals h2 {
+  color: #00A1DE;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

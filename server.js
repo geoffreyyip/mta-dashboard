@@ -23,6 +23,8 @@ app.get('/', (req, res) => {
     });
 });
 
+app.use(express.static('public'));
+
 app.listen(app.get('port'), () => {
   console.log(`listening on port ${app.get('port')}`)
 })
