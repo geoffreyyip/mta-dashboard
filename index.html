@@ -11,11 +11,7 @@
     <section class="busArrivals">
       <h2>MTA Bus Arrivals</h1>
       <section class="stopMonitoring">
-        <!--
-        This h3 header is hardcoded for now. It will be replaced
-        with something generic soon.
-        -->
-        <h3>Q24, Atlantic Av/80 St</h3>
+        <h3>{{arrivals[0].routeName}} at {{arrivals[0].stopName}}</h3>
         <ul>
         {% for arrival in arrivals %}
           <li>

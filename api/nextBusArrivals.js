@@ -18,31 +18,36 @@ function buildRequest(route, stop, maxResults) {
   }
 }
 
-// synchronous, is called from within the promise
-function extractArrivalInfo(data) {
-  const stopVisits = data
+// drills down into MTA response to get the relevant info
+function getMonitoredVehicleJourneys(data) {
+  /**
+   * @return Array - Contains info on origin,
+   *   destination, and current location
+   */
+  return data
     .Siri
     .ServiceDelivery
     .StopMonitoringDelivery[0]
-    .MonitoredStopVisit;
-
-  return stopVisits.map((stopVisit) => {
-    return stopVisit.MonitoredVehicleJourney.MonitoredCall;
-  });
+    .MonitoredStopVisit.map(item => item.MonitoredVehicleJourney);
 }
 
-function formatArrivalInfo(arrivals) {
+function extractArrivalInfo(journeys) {
   /**
-   * @return Array arrivalInfo - Human-readable info on how
+   * @return Array - Human-readable info on how
    *   far the bus is time-wise and distance-wise
    *
+   *   @property String routeName
+   *   @property String stopName
    *   @property String waitTime
    *   @property String distance
    */
-  return arrivals.map((bus) => {
+  return journeys.map((journey) => {
+    const realtime = journey.MonitoredCall;
     return {
-      waitTime: moment(bus.ExpectedArrivalTime).fromNow(),
-      distance: bus.ArrivalProximityText,
+      routeName: journey.PublishedLineName[0],
+      stopName: realtime.StopPointName[0],
+      waitTime: moment(realtime.ExpectedArrivalTime).fromNow(),
+      distance: realtime.ArrivalProximityText,
     }
   });
 }
@@ -52,8 +57,8 @@ function nextBusArrivals(route, stop, maxResults=2) {
 
   return axios(url)
     .then(response => response.data)
+    .then(getMonitoredVehicleJourneys)
     .then(extractArrivalInfo)
-    .then(formatArrivalInfo)
     .catch((error) => {
       console.error(error);
     })
