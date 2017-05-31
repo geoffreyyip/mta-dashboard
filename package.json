@@ -4,8 +4,19 @@
   "description": "Performant mobile web site with instant transit info",
   "main": "index.js",
   "scripts": {
-    "build": "babel api -d build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "_start": "node server.js",
+    "start": "npm-watch _start"
+  },
+  "watch": {
+    "_start": {
+      "patterns": [
+        "**"
+      ],
+      "ignore": [
+        "node_modules"
+      ],
+      "extensions": "js, css, html"
+    }
   },
   "repository": {
     "type": "git",
@@ -23,5 +34,8 @@
     "express": "^4.15.3",
     "moment": "^2.18.1",
     "nunjucks": "^3.0.1"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.1.9"
   }
 }
