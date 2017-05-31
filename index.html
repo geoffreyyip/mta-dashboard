@@ -6,15 +6,26 @@
   <title>Document</title>
 </head>
 <body>
-  Hello World!
-  <ul>
-  {% for arrival in arrivals %}
-    <li>
-      Next bus is <strong>{{arrival.distance}}</strong>, expected arrival time is <strong>{{arrival.waitTime}}</strong>
-    </li>
-  {% else %}
-    Uh-oh. No bus arrival info.
-  {% endfor %}
-  </ul>
+  <div class="container">
+    <section class="busArrivals">
+      <h2>MTA Bus Arrivals</h1>
+      <section class="stopMonitoring">
+        <!--
+        This h3 header is hardcoded for now. It will be replaced
+        with something generic soon.
+        -->
+        <h3>Q24, Atlantic Av/80 St</h3>
+        <ul>
+        {% for arrival in arrivals %}
+          <li>
+            Arriving {{arrival.waitTime}}
+          </li>
+        {% else %}
+          Uh-oh. No bus arrival info.
+        {% endfor %}
+        </ul>
+      </section>
+    </section>
+  </div>
 </body>
 </html>
