@@ -4,7 +4,7 @@
 
 *MTA Bus Time* uses a separate API key from the other MTA services. It is split into the SIRI API and the OneBusAway "Discovery" API. SIRI API gives us real-time data so that's the one we care about.
 
-SIRI API has two main ways of accessing data: Vehicle Monitoring and Stop Monitoring. Both load similar slices of the same data. We care mainly about Stop Monitoring. 
+SIRI API has two main ways of accessing data: Vehicle Monitoring and Stop Monitoring. Both load similar slices of the same data. We care mainly about Stop Monitoring.
 
 ### Stop Monitoring
 
@@ -114,11 +114,7 @@ An example page:
 
 [INSERT IMAGE MANUALLY ONCE THIS IS UPLOADED TO GITHUB]
 
-We can query the appropriate tags using CSS selectors. 
-
-```javascript
-document.querySelector('a[onclick="ShowHide(1);"]')
-```
+We can target the appropriate tags using a htmlparse2 script.
 
 ```HTML
 <a style="cursor:pointer; text-decoration:underline" onclick="ShowHide(1);">
@@ -126,10 +122,6 @@ document.querySelector('a[onclick="ShowHide(1);"]')
     <img src="images/A.png"> Inwood-bound trains skip 135 St, 155 St and 163 St
   </b>
 </a>
-```
-
-```javascript
-document.getElementById(1)
 ```
 
 ```HTML
@@ -140,6 +132,30 @@ document.getElementById(1)
 </div>
 ```
 
-From there, we can extract the appropriate selectors.
+`scrapers/plannedWork.js` will extract the text content and `<img>` tags as a flat nodes array for the templating engine.
+```Javascript
+[
+  [
+    { name: 'img', attribs: { src: 'images/A.png' } },
+    { type: 'text', data: 'Jamaica-bound trains skip 14 St and 23 St' },
+  ],
+  [
+    { name: 'img', attribs: { src: 'images/A.png' } },
+    { type: 'text', data: 'No trains between Church Av and...' }
+  ],
+  [
+    { name: 'img', attribs: [Object] },
+    { type: 'text', data: 'Jamaica-bound trains run local...' }
+  ],
+]
+```
+
+### Schema + Technical Definitions
+
+Note: These terms do not necessarily correspond with the MTA's defintions.
+
+A *message* is a flat array of text and image nodes that describes a service change.
+An *advisory* is a series of *messages* that corresponds to a given train route.
+A *workBatch* is a series of *advisories* that corresponds to a given date range. *workBatches* can either be of type workday (Mon - Fri) or weekend (Sat - Sun).
 
 Details are still pending. One possibility is a Heroku Scheduler task to run a Node + Request + Cheerio scraper that persists planned work data through a MongoDB database.
