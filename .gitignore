@@ -1,2 +1,9 @@
 # node_modules
 node_modules
+
+# NOTE: the below files exist for productivity purposes
+# sandbox for brainstorming
+notes.md
+
+# sandbox for ad hoc scripts
+scrap.js
