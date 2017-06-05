@@ -150,12 +150,42 @@ We can target the appropriate tags using a htmlparse2 script.
 ]
 ```
 
-### Schema + Technical Definitions
+### Database Schema + Technical Definitions
 
 Note: These terms do not necessarily correspond with the MTA's defintions.
 
-A *message* is a flat array of text and image nodes that describes a service change.
-An *advisory* is a series of *messages* that corresponds to a given train route.
-A *workBatch* is a series of *advisories* that corresponds to a given date range. *workBatches* can either be of type workday (Mon - Fri) or weekend (Sat - Sun).
+At the top, there should be a DateRange Collection:
+
+````json
+[
+  { id: 1, start: 2017/06/05, end: 2017/06/09, type: 'workday' },
+  { id: 2, start: 2017/06/10, end: 2017/06/11, type: 'weekend' },
+  ...
+]
+````
+
+And those DateRange keys should act as foreign keys for an Advisory Collection:
+
+```json
+[
+  { id: 17, dateRangeId: 1, route: 'A' },
+  { id: 18, dateRangeId: 1, route: 'F' },
+  ...
+  { id: 56, dateRangeId: 3, route: 'G' }
+]
+```
+
+And those Advisory keys can act as foreign keys for the Message Collection:
+
+```json
+[
+  { id: 233, advisoryId: 17, message: [json] },
+  { id: 234, advisoryId: 17, message: [json] },
+  ...
+  { id: 378, advisoryId: 56, message: [json] }
+]
+```
+
+Messages will be a JSON object corresponding to text nodes and route images.
 
 Details are still pending. One possibility is a Heroku Scheduler task to run a Node + Request + Cheerio scraper that persists planned work data through a MongoDB database.
