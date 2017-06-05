@@ -1,6 +1,7 @@
 const moment = require('moment');
 
 const plannedWork = require('./plannedWork');
+const DateRange = require('./DateRange');
 const { baseURL, routes, imgMap } = require('./constants.js');
 
 function buildLink({ route, datetime }) {
@@ -23,6 +24,34 @@ function plannedWorkByDate(datetime) {
         messagesByRoute[route] = advisory;
       });
       return messagesByRoute;
+    });
 }
 
-module.exports = plannedWorkByDate;
+/**
+ * Scrapes service advisories across multiple date ranges
+ *
+ * @param Number num - How many results to return
+ * @param Date from - Which date to start with
+ * @return Array[Object] - Batches of work for a specified
+ *   date range
+ */
+function getWorkBatches(num=3, from=Date.now()) {
+  const batches = [];
+  const start = new DateRange(from);
+
+  for (let offset = 0; offset < num; offset++) {
+    const dateRange = start.next(offset);
+    const advisories = plannedWorkByDate(dateRange.start);
+    batches.push(Promise.resolve(advisories)
+      .then((plannedWork) => ({
+        type: dateRange.type,
+        start: dateRange.start,
+        end: dateRange.end,
+        plannedWork,
+      })))
+  }
+
+  return Promise.all(batches)
+}
+
+module.exports = getWorkBatches;
