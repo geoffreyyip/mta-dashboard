@@ -45,8 +45,8 @@ function getWorkBatches(num=3, from=Date.now()) {
     batches.push(Promise.resolve(advisories)
       .then((advisories) => ({
         type: dateRange.type,
-        start: dateRange.start,
-        end: dateRange.end,
+        start: dateRange.start.toDate(),
+        end: dateRange.end.toDate(),
         advisories,
       })))
   }
