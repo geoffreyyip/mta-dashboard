@@ -9,7 +9,7 @@ function buildLink({ route, datetime }) {
   return `${baseURL}?tag=${route}&date=${date.format('MM/DD/YYYY')}&time=&method=getstatus4`;
 }
 
-function plannedWorkByDate(datetime) {
+function advisoriesByDate(datetime) {
   const pages = routes.map((route) => {
     const link = buildLink({ route, datetime });
     return scraper(link);
@@ -41,13 +41,13 @@ function getWorkBatches(num=3, from=Date.now()) {
 
   for (let offset = 0; offset < num; offset++) {
     const dateRange = start.next(offset);
-    const advisories = plannedWorkByDate(dateRange.start);
+    const advisories = advisoriesByDate(dateRange.start);
     batches.push(Promise.resolve(advisories)
-      .then((plannedWork) => ({
+      .then((advisories) => ({
         type: dateRange.type,
         start: dateRange.start,
         end: dateRange.end,
-        plannedWork,
+        advisories,
       })))
   }
 
