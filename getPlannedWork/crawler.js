@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-const plannedWork = require('./plannedWork');
+const scraper = require('./scraper');
 const DateRange = require('./DateRange');
 const { baseURL, routes, imgMap } = require('./constants.js');
 
@@ -12,7 +12,7 @@ function buildLink({ route, datetime }) {
 function plannedWorkByDate(datetime) {
   const pages = routes.map((route) => {
     const link = buildLink({ route, datetime });
-    return plannedWork(link);
+    return scraper(link);
   });
 
   // each advisory can have multiple messages
