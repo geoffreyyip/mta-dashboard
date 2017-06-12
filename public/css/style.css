@@ -32,6 +32,12 @@ body {
   margin: 0 16px;
 }
 
+@media only screen and (max-width: 500px) {
+  .busArrivals {
+    margin: 0 8px;
+  }
+}
+
 .busArrivals h2 {
   color: #00A1DE;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -40,6 +46,12 @@ body {
 /* Subway Delays */
 .subwayDelays {
   margin: 0 16px;
+}
+
+@media only screen and (max-width: 500px) {
+  .subwayDelays {
+    margin: 0 8px;
+  }
 }
 
 .subwayDelays h2 {
