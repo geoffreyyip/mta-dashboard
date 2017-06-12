@@ -50,5 +50,67 @@ body {
 .workBatch li {
   margin-bottom: 0.5em;
 }
+
+/* route */
+.routeCircle {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 1.0em;
+  border-radius: 50%;
+  font-weight: bold;
+  text-align: center;
+}
+
+.routeA,
+.routeC,
+.routeE {
+  background: #0039A6;
+}
+
+.routeB,
+.routeD,
+.routeF,
+.routeM {
+  background: #FF6319;
+}
+
+.routeJ,
+.routeZ {
+  background: #996633;
+}
+
+.routeN,
+.routeQ,
+.routeR {
+  background: #FCCC0A;
+  color: #000;
+}
+
+.routeS {
+  background: #808183;
+}
+
+.routeL {
+  background: #A7A9AC;
+}
+
+.routeG {
+  background: #6CBE45;
+}
+
+.route1,
+.route2,
+.route3 {
+  background: #EE352E;
+}
+
+.route4,
+.route5,
+.route6 {
+  background: #00933C;
+}
+
+.route7 {
   background: #B933AD;
 }
