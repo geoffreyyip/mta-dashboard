@@ -36,9 +36,11 @@
             {% for node in message %}
               {% if node.type === 'text' %}
                 {{node.data}}
-              {% elif node | isRouteImage %}
+              {% elif node | isImage %}
                 {% set route = node | extractRoute %}
-                <span class="routeCircle route{{route}}">{{route}}</span>
+                {% if route %}
+                  <span class="routeCircle route{{route}}">{{route}}</span>
+                {% endif %}
               {% endif %}
             {% endfor %}
           </li>

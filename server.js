@@ -4,6 +4,8 @@ const nunjucks = require('nunjucks');
 const nextBusArrivals = require('./api/nextBusArrivals');
 const plannedWork = require('./getPlannedWork/query');
 
+const {imgMap} = require('./getPlannedWork/constants');
+
 const app = express();
 
 app.set('port', process.env.PORT || 4444);
@@ -15,13 +17,17 @@ const env = nunjucks.configure('./', {
 });
 
 // matches `<img src="images/ROUTE.png">`
-env.addFilter('isRouteImage', ({name, attribs}) => {
+env.addFilter('isImage', ({name, attribs}) => {
   return name === 'img' && /images\/.*\.png/.test(attribs.src);
 });
 
-// gets the ROUTE out of `<img src ="images/ROUTE.png">`
+/**
+ * gets the ROUTE out of `<img src ="images/ROUTE.png">`
+ * returns null when image is not a route
+ */
 env.addFilter('extractRoute', (node) => {
-  return node.attribs.src.match(/images\/(.*)\.png/)[1];
+  const src = node.attribs.src;
+  return imgMap[src];
 });
 
 // formats native date objects as "Mon Jun 12"
