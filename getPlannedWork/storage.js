@@ -1,13 +1,11 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-const { routes } = require('./constants.js');
+const { dbURL } = require('./constants.js');
 const getWorkBatches = require('./crawler.js');
 const plannedWork = getWorkBatches();
 
-const url =  'mongodb://heroku_q0wnv9k0:r8lguve6kh0u47vifn400950jr@ds127949.mlab.com:27949/heroku_q0wnv9k0';
-
-MongoClient.connect(url)
+MongoClient.connect(dbURL)
   .then((db) => {
     // clear old data
     db.collection('plannedWork').deleteMany({});

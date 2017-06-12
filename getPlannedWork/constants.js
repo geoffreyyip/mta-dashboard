@@ -1,6 +1,9 @@
 // Service advisory link
 exports.baseURL = 'http://travel.mtanyct.info/serviceadvisory/routeStatusResult.aspx';
 
+// MongoDB url
+exports.dbURL = 'mongodb://heroku_q0wnv9k0:r8lguve6kh0u47vifn400950jr@ds127949.mlab.com:27949/heroku_q0wnv9k0';
+
 // Subway lines
 exports.routes = routes = [
   '1', '2', '3',
