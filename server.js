@@ -24,6 +24,15 @@ env.addFilter('extractRoute', (node) => {
   return node.attribs.src.match(/images\/(.*)\.png/)[1];
 });
 
+// formats native date objects as "Mon Jun 12"
+env.addFilter('shortenDate', (date) => {
+  return date.toLocaleString('en-US', {
+    weekday: 'short',
+    month: 'short',
+    day: 'numeric',
+  });
+})
+
 app.set('view engine', 'nunjucks');
 
 // routes
