@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "_start": "node server.js",
-    "start": "npm-watch _start"
+    "start": "npm-watch _start",
+    "test": "mocha */*.test.js"
   },
   "watch": {
     "_start": {
@@ -38,6 +39,9 @@
     "nunjucks": "^3.0.1"
   },
   "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "mocha": "^3.4.2",
     "npm-watch": "^0.1.9"
   }
 }
