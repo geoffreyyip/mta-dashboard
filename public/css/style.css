@@ -36,3 +36,19 @@ body {
   color: #00A1DE;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+/* Subway Delays */
+.subwayDelays {
+  margin: 0 16px;
+}
+
+.subwayDelays h2 {
+  color: #00A1DE;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.workBatch li {
+  margin-bottom: 0.5em;
+}
+  background: #B933AD;
+}
