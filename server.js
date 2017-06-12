@@ -2,6 +2,7 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 
 const nextBusArrivals = require('./api/nextBusArrivals');
+const plannedWork = require('./getPlannedWork/query');
 
 const app = express();
 
@@ -17,10 +18,15 @@ app.set('view engine', 'nunjucks');
 
 // routes
 app.get('/', (req, res) => {
-  nextBusArrivals(req.query.route, req.query.stop)
-    .then((arrivals) => {
-      res.render('index.html', {arrivals});
-    });
+  Promise.all([
+    nextBusArrivals(req.query.route, req.query.stop),
+    plannedWork,
+  ])
+    .then((values) => {
+      const [arrivals, subwayDelays] = values;
+      res.render('index.html', { arrivals, subwayDelays });
+    })
+    .catch(console.log);
 });
 
 app.use(express.static('public'));
