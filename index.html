@@ -23,6 +23,31 @@
         </ul>
       </section>
     </section>
+
+    <section class="subwayDelays">
+      <h2>MTA Subway Delays (Beta)</h2>
+      {% for workBatch in subwayDelays %}
+      <section class="workBatch">
+        <h3>{{workBatch.start}} to {{workBatch.end}}</h3>
+        <ul>
+          {% for route, advisory in workBatch.advisories %}
+          {% for message in advisory %}
+          <li>
+            {% for node in message %}
+              {% if node.type === 'text' %}
+                {{node.data}}
+              {% elif node | isRouteImage %}
+                {% set route = node | extractRoute %}
+                <span class="routeCircle route{{route}}">{{route}}</span>
+              {% endif %}
+            {% endfor %}
+          </li>
+          {% endfor %}
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+    </section>
   </div>
 </body>
 </html>

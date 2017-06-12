@@ -9,9 +9,19 @@ const app = express();
 app.set('port', process.env.PORT || 4444);
 
 // setup template engine
-nunjucks.configure('./', {
+const env = nunjucks.configure('./', {
     autoescape: true,
     express: app
+});
+
+// matches `<img src="images/ROUTE.png">`
+env.addFilter('isRouteImage', ({name, attribs}) => {
+  return name === 'img' && /images\/.*\.png/.test(attribs.src);
+});
+
+// gets the ROUTE out of `<img src ="images/ROUTE.png">`
+env.addFilter('extractRoute', (node) => {
+  return node.attribs.src.match(/images\/(.*)\.png/)[1];
 });
 
 app.set('view engine', 'nunjucks');
