@@ -10,6 +10,11 @@ function buildLink({ route, datetime }) {
 }
 
 function advisoriesByDate(datetime) {
+  // reject past dates; mta only responds to present / future date queries
+  if (moment(datetime).isBefore(Date.now(), 'day')) {
+    throw new Error('advisoriesByDate invoked with invalid date');
+  }
+
   const pages = routes.map((route) => {
     const link = buildLink({ route, datetime });
     return scraper(link);
@@ -41,7 +46,7 @@ function getWorkBatches(num=3, from=Date.now()) {
 
   for (let offset = 0; offset < num; offset++) {
     const dateRange = start.next(offset);
-    const advisories = advisoriesByDate(dateRange.start);
+    const advisories = advisoriesByDate(dateRange.end);
     batches.push(Promise.resolve(advisories)
       .then((advisories) => ({
         type: dateRange.type,
