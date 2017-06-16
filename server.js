@@ -46,7 +46,7 @@ env.addFilter('shortenDate', (date) => {
 app.set('view engine', 'nunjucks');
 
 // routes
-app.get('/', async (req, res) => {
+app.get('/dashboard', async (req, res) => {
   const {
     busRoute,
     busStop,
