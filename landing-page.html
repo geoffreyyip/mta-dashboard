@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Set up your dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <form action="/dashboard" method="get">
+      <fieldset class="subwayConfig">
+        <legend>Pick your subway routes</legend>
+        {% for route in subwayRoutes %}
+          <label class="subwayConfig__checkbox">
+            <input type="checkbox" name="subwayRoutes[]" value="{{route}}">
+            <span class="routeCircle routeCircle--touchpad route{{route}}">{{route}}</span>
+          </label>
+        {% endfor %}
+      </fieldset>
+      <input type="submit" value="Send">
+    </form>
+  </div>
+</body>
+</html>

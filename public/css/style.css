@@ -127,3 +127,16 @@ body {
 .route7 {
   background: #B933AD;
 }
+
+.subwayConfig {
+  display: flex;
+}
+
+.subwayConfig__checkbox input {
+  display: none;
+}
+
+.subwayConfig input:not(:checked) + .routeCircle {
+  background: grey;
+  color: white;
+}

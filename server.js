@@ -4,7 +4,11 @@ const nunjucks = require('nunjucks');
 const nextBusArrivals = require('./api/nextBusArrivals');
 const plannedWork = require('./getPlannedWork/query');
 
-const {imgMap} = require('./getPlannedWork/constants');
+const {
+  imgMap,
+  userSubwayRoutes,
+} = require('./getPlannedWork/constants');
+
 const {
   cleanSubwayData,
   filterByRoutes,
@@ -64,6 +68,12 @@ app.get('/dashboard', async (req, res) => {
     console.log(err);
     res.status(500).send('500 (INTERNAL SERVER ERROR) Something broke on our end!');
   }
+});
+
+app.get('/', (req, res) => {
+  res.render('landing-page.html', {
+    subwayRoutes: userSubwayRoutes,
+  });
 });
 
 app.use(express.static('public'));
