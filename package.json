@@ -1,6 +1,9 @@
 {
   "name": "mta-dashboard",
   "version": "1.0.0",
+  "engines": {
+    "node": "7.x"
+  },
   "description": "Performant mobile web site with instant transit info",
   "main": "index.js",
   "scripts": {
