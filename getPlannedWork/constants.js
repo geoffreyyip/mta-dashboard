@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 // Service advisory link
 exports.baseURL = 'http://travel.mtanyct.info/serviceadvisory/routeStatusResult.aspx';
 
@@ -5,7 +7,7 @@ exports.baseURL = 'http://travel.mtanyct.info/serviceadvisory/routeStatusResult.
 exports.dbURL = 'mongodb://heroku_q0wnv9k0:r8lguve6kh0u47vifn400950jr@ds127949.mlab.com:27949/heroku_q0wnv9k0';
 
 // Subway lines
-exports.routes = routes = [
+exports.canonicalSubwayRoutes = canonicalSubwayRoutes = [
   '1', '2', '3',
   '4', '5', '6',
   '7',
@@ -15,9 +17,32 @@ exports.routes = routes = [
   'J', 'Z',
   'L',
   'N', 'Q', 'R', 'W',
-  'SIR',
   'GS', 'FS', 'H',
 ];
+
+/**
+ * maps canonical routes to their subway user equivalents
+ *
+ * this takes care of strange canonical routes like 'GS',
+ * 'FS' and 'H' which all map to the S train.
+ */
+function getUserRouteMap(canonicalRoutes) {
+  return canonicalRoutes.reduce((mapping, route) => {
+    switch (route) {
+      case 'GS':
+      case 'FS':
+      case 'H':
+        mapping[route] = 'S';
+      default:
+        mapping[route] = route;
+    }
+    return mapping;
+  }, {});
+}
+
+const userRouteMap = getUserRouteMap(canonicalSubwayRoutes);
+
+exports.userSubwayRoutes = _.uniq(Object.values(userRouteMap));
 
 function generateImageMap(arr) {
   /**
@@ -28,13 +53,13 @@ function generateImageMap(arr) {
    *
    * (E.g. "images/A.png": "A")
    */
-  var rawMap = arr.reduce((pairs, route) => {
-    pairs[`images/${route}.png`] = route;
+  var rawMap = arr.reduce((pairs, canonicalRoute) => {
+    const userRoute = userRouteMap[canonicalRoute];
+    pairs[`images/${canonicalRoute}.png`] = userRoute;
     return pairs;
   }, {});
 
-  // TODO: Hardcode stuff like "images/GS": "S"
   return rawMap;
 }
 
-exports.imgMap = generateImageMap(routes);
+exports.imgMap = generateImageMap(canonicalSubwayRoutes);
