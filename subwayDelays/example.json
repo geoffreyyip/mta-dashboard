@@ -1,0 +1,3611 @@
+[
+  {
+    "_id": "59434339a6b59f01497d1c5b",
+    "type": "workday",
+    "start": "2017-06-13T02:32:10.132Z",
+    "end": "2017-06-17T02:32:10.132Z",
+    "advisories": {
+      "1": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/1.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " South Ferry-bound trains run express from 72 St to Chambers St"
+          }
+        ]
+      ],
+      "2": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Flatbush Av-bound trains run express from 72 St to Chambers St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Manhattan and Brooklyn"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains replace the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " in the Bronx and Brooklyn"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between 34 St-Penn Station and Chambers St"
+          }
+        ]
+      ],
+      "3": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Sutter Av-Rutland Rd and Junius St are closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains running"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between 14 St and New Lots Av"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains provide alternate service"
+          }
+        ]
+      ],
+      "4": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Sutter Av-Rutland Rd and Junius St are closed for renovation"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Woodlawn-bound trains skip 51, 68, 77, 96, 103, 110 and 116 Sts"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Woodlawn-bound trains skip 161 St, 167 St, 170 St, Mt Eden Av and 176 St"
+          }
+        ]
+      ],
+      "5": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between E 180 St and Dyre Av "
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Manhattan and Brooklyn"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains replace the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " in the Bronx and Brooklyn"
+          }
+        ]
+      ],
+      "6": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Pelham Bay Park-bound trains skip 51, 68, 77, 96, 103, 110 and 116 Sts"
+          }
+        ]
+      ],
+      "7": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/7.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Hunters Point Av and Vernon Blvd-Jackson Av - Trains board at the Flushing-bound platform"
+          }
+        ]
+      ],
+      "A": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/A.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Ozone Park/Far Rockaway-bound trains skip 50 St, 23 St and Spring St"
+          }
+        ]
+      ],
+      "C": [],
+      "E": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/E.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between Queens Plaza and 71 Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/E.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between Queens Plaza and 71 Av"
+          }
+        ]
+      ],
+      "B": [],
+      "D": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 182-183 Sts"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 182-183 Sts"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 155 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip Union St, 4 Av-9 St, and 25 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains stop at 135 St in both directions"
+          }
+        ]
+      ],
+      "F": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platforms at Avenue U, Avenue P, Avenue N, Bay Pkwy"
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " and Avenue I are closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "Coney Island-bound trains skip 23 St and 14 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/A.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from W 4 St to Jay St-MetroTech"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run "
+          },
+          {
+            "type": "text",
+            "data": "local"
+          },
+          {
+            "type": "text",
+            "data": " via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/E.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from 71 Av to Canal St,"
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "then via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/A.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " to Jay St-MetroTech"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between 21 St-Queensbridge and 71 Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions in Queens"
+          }
+        ]
+      ],
+      "M": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/M.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Myrtle Av and Metropolitan Av"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ]
+      ],
+      "G": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/fastrack.png",
+              "alt": "Fastrack",
+              "service": "",
+              "change": ""
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/G.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Bedford-Nostrand Avs and Court Sq"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/G.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Bedford-Nostrand Avs and Court Sq"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ]
+      ],
+      "J": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 104 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 121 St is closed for renovation"
+          }
+        ]
+      ],
+      "Z": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 104 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 121 St is closed for renovation"
+          }
+        ]
+      ],
+      "L": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/L.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Service operates every 12 minutes between Myrtle-Wyckoff Avs and Rockaway Pkwy"
+          }
+        ]
+      ],
+      "N": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 53 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip "
+          },
+          {
+            "type": "text",
+            "data": "Union St, 4 Av-9 St, 25 St and 45 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from Canal"
+          },
+          {
+            "type": "text",
+            "data": " St to "
+          },
+          {
+            "type": "text",
+            "data": "DeKalb Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from Canal"
+          },
+          {
+            "type": "text",
+            "data": " St to "
+          },
+          {
+            "type": "text",
+            "data": "DeKalb Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 30 Av, Broadway, 36 Av and 39 Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Astoria-bound trains run express from Stillwell Av to 59 St, Brooklyn"
+          }
+        ]
+      ],
+      "Q": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ]
+      ],
+      "R": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 53 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Bay Ridge Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Bay Ridge-bound trains skip Union St, 4 Av-9 St, 25 St and 45 St "
+          }
+        ]
+      ],
+      "W": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/W.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between 57 St-7 Av and Ditmars Blvd"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/W.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains run every 20 minutes in Manhattan"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains provide alternate service"
+          }
+        ]
+      ],
+      "SIR": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/sir.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains board at the Tottenville-bound platform from Arthur Kill to Prince's Bay Stations"
+          }
+        ]
+      ],
+      "GS": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/S.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 42 Street Shuttle: Expect crowding on platforms and trains during Rush Hours"
+          }
+        ]
+      ],
+      "FS": [],
+      "H": []
+    }
+  },
+  {
+    "_id": "59434339a6b59f01497d1c5c",
+    "type": "weekend",
+    "start": "2017-06-18T02:32:10.132Z",
+    "end": "2017-06-19T02:32:10.132Z",
+    "advisories": {
+      "1": [],
+      "2": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Manhattan and Brooklyn"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains replace the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " in the Bronx and Brooklyn"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between 34 St-Penn Station and Chambers St"
+          }
+        ]
+      ],
+      "3": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Sutter Av-Rutland Rd and Junius St are closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between 14 St and New Lots Av"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains provide alternate service"
+          }
+        ]
+      ],
+      "4": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Sutter Av-Rutland Rd and Junius St are closed for renovation"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains replace the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " between Atlantic Av-Barclays Ctr and New Lots Av"
+          }
+        ]
+      ],
+      "5": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between E 180 St and Dyre Av "
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Manhattan and Brooklyn"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains replace the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " in the Bronx and Brooklyn"
+          }
+        ]
+      ],
+      "6": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ]
+      ],
+      "7": [],
+      "A": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/A.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Ozone Park/Far Rockaway-bound trains skip 50 St, 23 St and Spring St"
+          }
+        ]
+      ],
+      "C": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/C.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Euclid Av-bound trains skip 50 St, 23 St and Spring St"
+          }
+        ]
+      ],
+      "E": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/E.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between Queens Plaza and 71 Av"
+          }
+        ]
+      ],
+      "B": [],
+      "D": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 182-183 Sts"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 155 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip Union St, 4 Av-9 St, and 25 St"
+          }
+        ]
+      ],
+      "F": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platforms at Avenue U, Avenue P, Avenue N, Bay Pkwy"
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " and Avenue I are closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run "
+          },
+          {
+            "type": "text",
+            "data": "local"
+          },
+          {
+            "type": "text",
+            "data": " via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/E.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from 71 Av to Canal St,"
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "then via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/A.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " to Jay St-MetroTech"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions in Queens"
+          }
+        ]
+      ],
+      "M": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/M.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound trains skip Flushing Av, Lorimer St and Hewes St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/M.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Myrtle Av and Metropolitan Av"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ]
+      ],
+      "G": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/G.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Bedford-Nostrand Avs and Court Sq"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ]
+      ],
+      "J": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/M.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound trains skip Flushing Av, Lorimer St and Hewes St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Crescent St and Jamaica Center"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ]
+      ],
+      "Z": [],
+      "L": [],
+      "N": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 53 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip "
+          },
+          {
+            "type": "text",
+            "data": "Union St, 4 Av-9 St, 25 St and 45 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from Canal"
+          },
+          {
+            "type": "text",
+            "data": " St to "
+          },
+          {
+            "type": "text",
+            "data": "DeKalb Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Astoria-bound trains run express from Stillwell Av to 59 St, Brooklyn"
+          }
+        ]
+      ],
+      "Q": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ]
+      ],
+      "R": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 53 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Bay Ridge Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Bay Ridge-bound trains skip Union St, 4 Av-9 St, 25 St and 45 St "
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Brooklyn-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Bay Ridge-bound trains run via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from Canal"
+          },
+          {
+            "type": "text",
+            "data": " St to "
+          },
+          {
+            "type": "text",
+            "data": "DeKalb Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Bay Ridge-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ]
+      ],
+      "W": [],
+      "SIR": [],
+      "GS": [],
+      "FS": [],
+      "H": []
+    }
+  },
+  {
+    "_id": "59434339a6b59f01497d1c5d",
+    "type": "workday",
+    "start": "2017-06-20T02:32:10.132Z",
+    "end": "2017-06-24T02:32:10.132Z",
+    "advisories": {
+      "1": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/fastrack.png",
+              "alt": "Fastrack",
+              "service": "",
+              "change": ""
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/1.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between 96 St and Dyckman St"
+          },
+          {
+            "type": "text",
+            "data": " "
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops for Upper Manhattan"
+          }
+        ]
+      ],
+      "2": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Flatbush Av-bound trains run express from 241 St to E 180 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between 34 St-Penn Station and Chambers St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Wakefield-bound trains run local from Times Sq-42 St to 96 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Manhattan and Brooklyn"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains replace the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " in the Bronx and Brooklyn"
+          }
+        ]
+      ],
+      "3": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between 14 St and New Lots Av"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains provide alternate service"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/3.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Harlem-bound trains run local from Times Sq-42 St to 96 St"
+          }
+        ]
+      ],
+      "4": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound trains skip 138 St-Grand Concourse"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Crown Hts-bound trains skip "
+          },
+          {
+            "type": "text",
+            "data": "176 St, Mt Eden Av, 170 St, 167 St and 161 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Service operates in two sections:"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Trains run local in both directions between 125 St and Brooklyn Bridge"
+          }
+        ]
+      ],
+      "5": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F&F_Pos_16.png"
+            }
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Manhattan and Brooklyn"
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " trains replace the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/2.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " in the Bronx and Brooklyn"
+          }
+        ]
+      ],
+      "6": [
+        [
+          {
+            "type": "text",
+            "data": "No elevator service at the Brooklyn Bridge-City Hall "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/4.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/5.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "No elevator service "
+          },
+          {
+            "type": "text",
+            "data": "to/from"
+          },
+          {
+            "type": "text",
+            "data": " the DOWNTOWN platform at 51 St "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Station"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "Pelham Bay Park-bound trains skip Brook Av, Cypress Av, E 143 St, E 149 St and Longwood Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/6.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Pelham Bay Park-bound trains skip Brook Av, Cypress Av, E 143 St, E 149 St and Longwood Av"
+          }
+        ]
+      ],
+      "7": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/7.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Hunters Point Av and Vernon Blvd-Jackson Av - Trains board at the Flushing-bound platform"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/7.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Hudson Yards-bound trains skip 111, 103, 90, 82, 74, 69, 52, 46, 40 and 33 Sts"
+          }
+        ]
+      ],
+      "A": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/A.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Ozone Park/Far Rockaway-bound trains run express from Hoyt-Schermerhorn to Utica Av"
+          }
+        ]
+      ],
+      "C": [],
+      "E": [],
+      "B": [],
+      "D": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 155 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Norwood-bound trains skip 170 St, 174-175 Sts and 182-183 Sts"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Norwood-bound trains skip 182-183 Sts"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Norwood"
+          },
+          {
+            "type": "text",
+            "data": "-bound trains skip 25 St, 4 Av-9 St and Union St"
+          }
+        ]
+      ],
+      "F": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platforms at Avenue U, Avenue P, Avenue N, Bay Pkwy"
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": " and Avenue I are closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Jamaica-bound trains skip 14 St and 23 St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Jamaica-bound trains are rerouted via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/E.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " after 47-50 Sts to Roosevelt Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains at B'way-Lafayette St, 2 Av, Delancey St, East Broadway and York St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Jamaica-bound trains run local from 21 St-Queensbridge to Roosevelt Av "
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run local from 71 Av to Roosevelt Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/F.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run local from Roosevelt Av to 21 St-Queensbridge "
+          }
+        ]
+      ],
+      "M": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/M.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Myrtle Av and Metropolitan Av"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ]
+      ],
+      "G": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/G.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " No trains between Bedford-Nostrand Avs and Court Sq"
+          }
+        ],
+        [
+          {
+            "type": "text",
+            "data": "Show Shuttle Bus Stops"
+          }
+        ]
+      ],
+      "J": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 104 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 121 St is closed for renovation"
+          }
+        ]
+      ],
+      "Z": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 104 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/J.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Z.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound platform at 121 St is closed for renovation"
+          }
+        ]
+      ],
+      "L": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/L.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Service operates every 12 minutes between Myrtle-Wyckoff Avs and Rockaway Pkwy"
+          }
+        ]
+      ],
+      "N": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 53 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from Canal"
+          },
+          {
+            "type": "text",
+            "data": " St to "
+          },
+          {
+            "type": "text",
+            "data": "DeKalb Av"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Astoria-bound trains run express from 59 St, Brooklyn to Atlantic Av-Barclays Ctr"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains run via the "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " from Canal"
+          },
+          {
+            "type": "text",
+            "data": " St to "
+          },
+          {
+            "type": "text",
+            "data": "DeKalb Av"
+          }
+        ]
+      ],
+      "Q": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "type": "text",
+            "data": "Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/Q.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Coney Island-bound trains skip 28 St, 23 St, 8 St and Prince St"
+          }
+        ]
+      ],
+      "R": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 53 St is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Bay Ridge Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/D.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/N.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " "
+          },
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Prospect Av is closed for renovation"
+          }
+        ],
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/R.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " Manhattan-bound trains run express from 59 St, Brooklyn to Atlantic Av-Barclays Ctr"
+          }
+        ]
+      ],
+      "W": [],
+      "SIR": [],
+      "GS": [
+        [
+          {
+            "name": "img",
+            "attribs": {
+              "src": "images/S.png"
+            }
+          },
+          {
+            "type": "text",
+            "data": " 42 Street Shuttle: Expect crowding on platforms and trains during Rush Hours"
+          }
+        ]
+      ],
+      "FS": [],
+      "H": []
+    }
+  }
+]
