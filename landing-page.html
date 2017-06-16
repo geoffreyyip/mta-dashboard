@@ -9,6 +9,17 @@
 <body>
   <div class="container">
     <form action="/dashboard" method="get">
+      <fieldset class="busConfig">
+        <legend>Enter your bus info (Optional)</legend>
+        <label class="busConfig__busRoute">
+          Bus Route
+          <input type="text" name="busRoute">
+        </label>
+        <label class="busConfig__busStop">
+          Bus Stop
+          <input type="text" name="busStop">
+        </label>
+      </fieldset>
       <fieldset class="subwayConfig">
         <legend>Pick your subway routes</legend>
         {% for route in subwayRoutes %}
