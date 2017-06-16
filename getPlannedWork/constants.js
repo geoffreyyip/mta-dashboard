@@ -33,6 +33,7 @@ function getUserRouteMap(canonicalRoutes) {
       case 'FS':
       case 'H':
         mapping[route] = 'S';
+        break;
       default:
         mapping[route] = route;
     }
