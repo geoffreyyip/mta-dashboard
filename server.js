@@ -59,7 +59,7 @@ app.get('/dashboard', async (req, res) => {
       filterByRoutes(cleanSubwayData(await plannedWork), subwayRoutes),
     ]);
 
-    res.render('index.html', { arrivals, subwayDelays });
+    res.render('dashboard.html', { arrivals, subwayDelays });
   } catch(err) {
     console.log(err);
     res.status(500).send('500 (INTERNAL SERVER ERROR) Something broke on our end!');
