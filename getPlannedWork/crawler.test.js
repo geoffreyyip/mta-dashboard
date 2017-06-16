@@ -6,7 +6,7 @@ chai.should();
 const getWorkBatches = require('./crawler.js');
 
 describe('getWorkBatches', function() {
-  it('should have at least one advisory message in each batch', async function() {
+  it('should have at least one advisory message in each batch (slow)', async function() {
     this.timeout(30000);
     const workBatches = await getWorkBatches();
 
