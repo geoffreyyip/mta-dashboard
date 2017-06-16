@@ -5,6 +5,10 @@ const nextBusArrivals = require('./api/nextBusArrivals');
 const plannedWork = require('./getPlannedWork/query');
 
 const {imgMap} = require('./getPlannedWork/constants');
+const {
+  cleanSubwayData,
+  filterByRoutes,
+} = require('./subwayDelays/cleanser.js');
 
 const app = express();
 
@@ -42,16 +46,24 @@ env.addFilter('shortenDate', (date) => {
 app.set('view engine', 'nunjucks');
 
 // routes
-app.get('/', (req, res) => {
-  Promise.all([
-    nextBusArrivals(req.query.route, req.query.stop),
-    plannedWork,
-  ])
-    .then((values) => {
-      const [arrivals, subwayDelays] = values;
-      res.render('index.html', { arrivals, subwayDelays });
-    })
-    .catch(console.log);
+app.get('/', async (req, res) => {
+  const {
+    busRoute,
+    busStop,
+    subwayRoutes,
+  } = req.query;
+
+  try {
+    const [arrivals, subwayDelays] = await Promise.all([
+      nextBusArrivals(busRoute, busStop),
+      filterByRoutes(cleanSubwayData(await plannedWork), subwayRoutes),
+    ]);
+
+    res.render('index.html', { arrivals, subwayDelays });
+  } catch(err) {
+    console.log(err);
+    res.status(500).send('500 (INTERNAL SERVER ERROR) Something broke on our end!');
+  }
 });
 
 app.use(express.static('public'));
