@@ -67,7 +67,9 @@ body {
 .routeCircle {
   display: inline-block;
   width: 1.5em;
-  height: 1.5em;
+  line-height: 1.5em;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
   font-size: 1.0em;
   border-radius: 50%;
   font-weight: bold;
