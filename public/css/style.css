@@ -59,8 +59,14 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.subwayDelays h3 {
+  margin-bottom: 0;
+}
+
 .workBatch li {
-  margin-bottom: 0.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-bottom: solid 1px rgba(244, 244, 244, 0.2);
 }
 
 /* route */
