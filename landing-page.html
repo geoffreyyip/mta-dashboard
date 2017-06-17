@@ -25,7 +25,7 @@
         {% for route in subwayRoutes %}
           <label class="subwayConfig__checkbox">
             <input type="checkbox" name="subwayRoutes[]" value="{{route}}">
-            <span class="routeCircle routeCircle--touchpad route{{route}}">{{route}}</span>
+            <span class="routeCircle routeCircle--tappable route{{route}}">{{route}}</span>
           </label>
         {% endfor %}
       </fieldset>

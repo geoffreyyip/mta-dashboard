@@ -82,6 +82,12 @@ body {
   text-align: center;
 }
 
+.routeCircle--tappable {
+  min-width: 50px;
+  min-height: 50px;
+  font-size: 33px;
+}
+
 .routeA,
 .routeC,
 .routeE {
@@ -136,12 +142,15 @@ body {
   background: #B933AD;
 }
 
-.subwayConfig {
-  display: flex;
-}
-
 .subwayConfig__checkbox input {
   display: none;
+}
+
+.subwayConfig__checkbox {
+  width: 25%;
+  display: block;
+  float: left;
+  text-align: center;
 }
 
 .subwayConfig input:not(:checked) + .routeCircle {
