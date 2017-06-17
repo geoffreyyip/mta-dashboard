@@ -142,6 +142,10 @@ body {
   background: #B933AD;
 }
 
+.busConfig label {
+  display: block;
+}
+
 .subwayConfig__checkbox input {
   display: none;
 }
