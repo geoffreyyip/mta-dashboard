@@ -142,6 +142,7 @@ body {
   background: #B933AD;
 }
 
+/* Config styling */
 .busConfig label {
   display: block;
 }
@@ -160,4 +161,31 @@ body {
 .subwayConfig input:not(:checked) + .routeCircle {
   background: grey;
   color: white;
+}
+
+.btn {
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+
+}
+
+.btn-default {
+  border: 1px solid #0039A6;
+  background: #0039A6;
+  padding: 0.5em 1em;
+  font-size: 1em;
+}
+
+.btn-default:hover {
+  background: #fff;
+  color: #0039A6;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
 }
