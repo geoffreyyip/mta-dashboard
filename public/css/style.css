@@ -143,6 +143,23 @@ body {
 }
 
 /* Config styling */
+fieldset {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+input {
+  font-size: 1em;
+  padding: 0.5em;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.fieldset-invisible {
+  border: none;
+}
+
 .busConfig label {
   display: block;
 }
