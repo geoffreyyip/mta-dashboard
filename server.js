@@ -1,4 +1,5 @@
 const express = require('express');
+const compression = require('compression');
 const nunjucks = require('nunjucks');
 
 const nextBusArrivals = require('./api/nextBusArrivals');
@@ -15,6 +16,8 @@ const {
 } = require('./subwayDelays/cleanser.js');
 
 const app = express();
+
+app.use(compression());
 
 app.set('port', process.env.PORT || 4444);
 

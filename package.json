@@ -35,6 +35,7 @@
   "homepage": "https://github.com/geoffreyyip/mta-dashboard#readme",
   "dependencies": {
     "axios": "^0.16.1",
+    "compression": "^1.6.2",
     "express": "^4.15.3",
     "htmlparser2": "^3.9.2",
     "lodash": "^4.17.4",
