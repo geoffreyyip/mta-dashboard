@@ -4,20 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Set up your dashboard</title>
+  <title>Settings</title>
 </head>
 <body>
   <div class="container">
+    <section class="config__description">
+      <h2>Settings</h2>
+    </section>
     <form action="/dashboard" method="get">
       <fieldset class="busConfig">
-        <legend>Enter your bus info (Optional)</legend>
+        <legend>Find out when the next bus is arriving.</legend>
         <label for="busRoute">Bus Route</label>
         <input type="text" name="busRoute" id="busRoute" value="MTA NYCT_B63">
         <label for="busStop">Bus Stop</label>
         <input type="text" name="busStop" id="busStop" value="308209">
       </fieldset>
       <fieldset class="subwayConfig">
-        <legend>Pick your subway routes</legend>
+        <legend>Find out about the upcoming subway delays.</legend>
         {% for route in subwayRoutes %}
           <label class="subwayConfig__checkbox">
             <input type="checkbox" name="subwayRoutes[]" value="{{route}}">

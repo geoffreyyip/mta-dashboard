@@ -143,6 +143,10 @@ body {
 }
 
 /* Config styling */
+.config__description h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 fieldset {
   border: 1px solid grey;
   border-radius: 5px;
