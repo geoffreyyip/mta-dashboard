@@ -1,7 +1,7 @@
 const express = require('express');
 const router = new express.Router();
 
-const { userSubwayRoutes } = require('../getPlannedWork/constants');
+const { userSubwayRoutes } = require('../plannedWork/constants');
 
 router.get('/', (req, res) => {
   res.render('settings.html', {

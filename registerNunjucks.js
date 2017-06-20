@@ -1,7 +1,7 @@
 const nunjucks = require('nunjucks');
 const {
   imgMap,
-} = require('./getPlannedWork/constants');
+} = require('./plannedWork/constants');
 
 // matches `<img src="images/ROUTE.png">`
 const isImage = ({name, attribs}) => {

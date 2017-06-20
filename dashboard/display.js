@@ -2,7 +2,7 @@ const express = require('express');
 const router = new express.Router();
 
 const nextBusArrivals = require('../busArrivals/nextBusArrivals');
-const plannedWork = require('../getPlannedWork/query');
+const plannedWork = require('../plannedWork/query');
 
 const {
   cleanSubwayData,
