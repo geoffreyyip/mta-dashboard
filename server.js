@@ -6,10 +6,6 @@ const nextBusArrivals = require('./busArrivals/nextBusArrivals');
 const plannedWork = require('./getPlannedWork/query');
 
 const {
-  userSubwayRoutes,
-} = require('./getPlannedWork/constants');
-
-const {
   cleanSubwayData,
   filterByRoutes,
 } = require('./subwayDelays/cleanser.js');
@@ -45,12 +41,7 @@ app.get('/dashboard', async (req, res) => {
   }
 });
 
-app.get('/', (req, res) => {
-  res.render('landing-page.html', {
-    subwayRoutes: userSubwayRoutes,
-  });
-});
-
+app.use(require('./dashboard/settings'));
 app.use(express.static('public'));
 
 app.listen(app.get('port'), () => {
