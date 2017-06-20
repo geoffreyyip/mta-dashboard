@@ -27,7 +27,7 @@ const shortenDate = (date) => {
 }
 
 module.exports = function setup(app) {
-  const env = nunjucks.configure('./', {
+  const env = nunjucks.configure('./views', {
       autoescape: true,
       express: app
   });
