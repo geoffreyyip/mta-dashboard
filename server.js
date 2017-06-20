@@ -1,12 +1,11 @@
 const express = require('express');
 const compression = require('compression');
-const nunjucks = require('nunjucks');
+const registerNunjucks = require('./registerNunjucks');
 
 const nextBusArrivals = require('./busArrivals/nextBusArrivals');
 const plannedWork = require('./getPlannedWork/query');
 
 const {
-  imgMap,
   userSubwayRoutes,
 } = require('./getPlannedWork/constants');
 
@@ -17,40 +16,13 @@ const {
 
 const app = express();
 
+// templating engine
+registerNunjucks(app);
+
+// gzip compression
 app.use(compression());
 
 app.set('port', process.env.PORT || 4444);
-
-// setup template engine
-const env = nunjucks.configure('./', {
-    autoescape: true,
-    express: app
-});
-
-// matches `<img src="images/ROUTE.png">`
-env.addFilter('isImage', ({name, attribs}) => {
-  return name === 'img' && /images\/.*\.png/.test(attribs.src);
-});
-
-/**
- * gets the ROUTE out of `<img src ="images/ROUTE.png">`
- * returns null when image is not a route
- */
-env.addFilter('extractRoute', (node) => {
-  const src = node.attribs.src;
-  return imgMap[src];
-});
-
-// formats native date objects as "Mon Jun 12"
-env.addFilter('shortenDate', (date) => {
-  return date.toLocaleString('en-US', {
-    weekday: 'short',
-    month: 'short',
-    day: 'numeric',
-  });
-})
-
-app.set('view engine', 'nunjucks');
 
 // routes
 app.get('/dashboard', async (req, res) => {
