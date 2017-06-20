@@ -2,7 +2,7 @@ const express = require('express');
 const compression = require('compression');
 const nunjucks = require('nunjucks');
 
-const nextBusArrivals = require('./api/nextBusArrivals');
+const nextBusArrivals = require('./busArrivals/nextBusArrivals');
 const plannedWork = require('./getPlannedWork/query');
 
 const {
