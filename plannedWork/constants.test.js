@@ -1,5 +1,3 @@
-const chai = require('chai');
-
 const {
   canonicalSubwayRoutes,
   userSubwayRoutes,

@@ -9,7 +9,7 @@
   "scripts": {
     "_start": "node server.js",
     "start": "npm-watch _start",
-    "test": "mocha */*.test.js --watch --grep '(slow)' --invert",
+    "test": "mocha */*.test.js --watch --grep '(slow)' --invert --require ./globals.test",
     "test:all": "mocha */*.test.js"
   },
   "watch": {
