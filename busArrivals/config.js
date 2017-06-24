@@ -1,7 +1,7 @@
 exports.keys = {
   MTA_KEY: '5e84041677af895e07a7eae591d9eab1',
   BUSTIME_KEY: '484a26db-5c49-4f80-8fb5-4ebeae85f728',
-};
+}
 
 /**
  * Bustime API options

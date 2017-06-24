@@ -1,24 +1,41 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 // Service advisory link
-exports.baseURL = 'http://travel.mtanyct.info/serviceadvisory/routeStatusResult.aspx';
+exports.baseURL =
+  'http://travel.mtanyct.info/serviceadvisory/routeStatusResult.aspx'
 
 // MongoDB url
-exports.dbURL = 'mongodb://heroku_q0wnv9k0:r8lguve6kh0u47vifn400950jr@ds127949.mlab.com:27949/heroku_q0wnv9k0';
+exports.dbURL =
+  'mongodb://heroku_q0wnv9k0:r8lguve6kh0u47vifn400950jr@ds127949.mlab.com:27949/heroku_q0wnv9k0'
 
 // Subway lines
 exports.canonicalSubwayRoutes = canonicalSubwayRoutes = [
-  '1', '2', '3',
-  '4', '5', '6',
+  '1',
+  '2',
+  '3',
+  '4',
+  '5',
+  '6',
   '7',
-  'A', 'C', 'E',
-  'B', 'D', 'F', 'M',
+  'A',
+  'C',
+  'E',
+  'B',
+  'D',
+  'F',
+  'M',
   'G',
-  'J', 'Z',
+  'J',
+  'Z',
   'L',
-  'N', 'Q', 'R', 'W',
-  'GS', 'FS', 'H',
-];
+  'N',
+  'Q',
+  'R',
+  'W',
+  'GS',
+  'FS',
+  'H',
+]
 
 /**
  * maps canonical routes to their subway user equivalents
@@ -32,18 +49,18 @@ function getUserRouteMap(canonicalRoutes) {
       case 'GS':
       case 'FS':
       case 'H':
-        mapping[route] = 'S';
-        break;
+        mapping[route] = 'S'
+        break
       default:
-        mapping[route] = route;
+        mapping[route] = route
     }
-    return mapping;
-  }, {});
+    return mapping
+  }, {})
 }
 
-const userRouteMap = getUserRouteMap(canonicalSubwayRoutes);
+const userRouteMap = getUserRouteMap(canonicalSubwayRoutes)
 
-exports.userSubwayRoutes = _.uniq(Object.values(userRouteMap));
+exports.userSubwayRoutes = _.uniq(Object.values(userRouteMap))
 
 function generateImageMap(arr) {
   /**
@@ -55,12 +72,12 @@ function generateImageMap(arr) {
    * (E.g. "images/A.png": "A")
    */
   var rawMap = arr.reduce((pairs, canonicalRoute) => {
-    const userRoute = userRouteMap[canonicalRoute];
-    pairs[`images/${canonicalRoute}.png`] = userRoute;
-    return pairs;
-  }, {});
+    const userRoute = userRouteMap[canonicalRoute]
+    pairs[`images/${canonicalRoute}.png`] = userRoute
+    return pairs
+  }, {})
 
-  return rawMap;
+  return rawMap
 }
 
-exports.imgMap = generateImageMap(canonicalSubwayRoutes);
+exports.imgMap = generateImageMap(canonicalSubwayRoutes)

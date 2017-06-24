@@ -1,5 +1,5 @@
-var axios = require('axios');
-var htmlparser = require("htmlparser2")
+var axios = require('axios')
+var htmlparser = require('htmlparser2')
 
 // matches `<a onclick="ShowHide(NUMBER);"><a/>`
 const isTitleTag = (name, attribs) => {
@@ -8,25 +8,25 @@ const isTitleTag = (name, attribs) => {
 
 // matches `<img src="images/ROUTE.png">`
 const isRouteImage = (name, attribs) => {
-  return name === 'img' && /images\/.*\.png/.test(attribs.src);
-};
+  return name === 'img' && /images\/.*\.png/.test(attribs.src)
+}
 
 class Transcriber {
   constructor() {
-    this.message = [];
-    this.running = false;
+    this.message = []
+    this.running = false
   }
 
   start() {
-    this.running = true;
+    this.running = true
   }
 
   add(item) {
-    this.message.push(item);
+    this.message.push(item)
   }
 
   stop() {
-    this.running = false;
+    this.running = false
   }
 }
 
@@ -40,49 +40,50 @@ class Transcriber {
  * @return Array[Object] Flat array of <img> and text nodes
  */
 function getTitles(html) {
-  const titles = [];
-  let record = new Transcriber();
+  const titles = []
+  let record = new Transcriber()
 
-  let entryDepth;
-  let currDepth = 0;
+  let entryDepth
+  let currDepth = 0
 
-  const titleParser = new htmlparser.Parser({
-    onopentag: (name, attribs) => {
-      if (isTitleTag(name, attribs)) {
-        record.start();
-        entryDepth = currDepth;
-      } else if (record.running && isRouteImage(name, attribs))
-        record.add({
-          name,
-          attribs,
-        });
-      currDepth++;
+  const titleParser = new htmlparser.Parser(
+    {
+      onopentag: (name, attribs) => {
+        if (isTitleTag(name, attribs)) {
+          record.start()
+          entryDepth = currDepth
+        } else if (record.running && isRouteImage(name, attribs))
+          record.add({
+            name,
+            attribs,
+          })
+        currDepth++
+      },
+      ontext: str => {
+        if (record.running)
+          record.add({
+            type: 'text',
+            data: str,
+          })
+      },
+      onclosetag: name => {
+        currDepth--
+        if (currDepth === entryDepth) {
+          entryDepth = null
+          record.stop()
+          titles.push(record.message)
+          record = new Transcriber()
+        }
+      },
     },
-    ontext: (str) => {
-      if (record.running)
-        record.add({
-          type: 'text',
-          data: str,
-        });
-    },
-    onclosetag: (name) => {
-      currDepth--;
-      if (currDepth === entryDepth) {
-        entryDepth = null;
-        record.stop();
-        titles.push(record.message);
-        record = new Transcriber();
-      }
-    },
-  }, {decodeEntities: true});
+    { decodeEntities: true }
+  )
 
-  titleParser.write(html);
-  titleParser.end();
-  return titles;
+  titleParser.write(html)
+  titleParser.end()
+  return titles
 }
 
 module.exports = function plannedWork(resultsPage) {
-  return axios(resultsPage)
-    .then(res => getTitles(res.data));
-};
-
+  return axios(resultsPage).then(res => getTitles(res.data))
+}
