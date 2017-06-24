@@ -2,11 +2,7 @@ const moment = require('moment')
 
 const scraper = require('./scraper')
 const DateRange = require('./DateRange')
-const {
-  baseURL,
-  canonicalSubwayRoutes: routes,
-  imgMap,
-} = require('./constants.js')
+const { baseURL, canonicalSubwayRoutes: routes } = require('./constants.js')
 
 function buildLink({ route, datetime }) {
   const date = moment(datetime)

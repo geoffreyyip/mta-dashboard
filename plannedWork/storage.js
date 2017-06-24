@@ -1,5 +1,4 @@
 const MongoClient = require('mongodb').MongoClient
-const assert = require('assert')
 
 const { dbURL } = require('./constants.js')
 const getWorkBatches = require('./crawler.js')

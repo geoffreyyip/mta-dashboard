@@ -66,7 +66,7 @@ function getTitles(html) {
             data: str,
           })
       },
-      onclosetag: name => {
+      onclosetag: () => {
         currDepth--
         if (currDepth === entryDepth) {
           entryDepth = null

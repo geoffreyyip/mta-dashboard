@@ -1,7 +1,7 @@
 const axios = require('axios')
 const moment = require('moment')
 
-const { keys, bustime } = require('./config.js')
+const { keys } = require('./config.js')
 
 function buildRequest(route, stop, maxResults) {
   return {
