@@ -12,7 +12,7 @@
     "start": "npm-watch _start",
     "lint": "nodemon --exec 'eslint **/*.js' --ext 'js'",
     "test": "mocha */*.test.js --watch --grep '(slow)' --invert --require ./globals.test",
-    "test:all": "mocha */*.test.js"
+    "test:all": "mocha */*.test.js --require ./globals.test"
   },
   "watch": {
     "_start": {

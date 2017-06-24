@@ -2,14 +2,12 @@ const axios = require('axios')
 const htmlparser = require('htmlparser2')
 
 // matches `<a onclick="ShowHide(NUMBER);"><a/>`
-const isTitleTag = (name, attribs) => {
-  return name === 'a' && /ShowHide\((\d+)\);/.test(attribs.onclick)
-}
+const isTitleTag = (name, attribs) =>
+  name === 'a' && /ShowHide\((\d+)\);/.test(attribs.onclick)
 
 // matches `<img src="images/ROUTE.png">`
-const isRouteImage = (name, attribs) => {
-  return name === 'img' && /images\/.*\.png/.test(attribs.src)
-}
+const isRouteImage = (name, attribs) =>
+  name === 'img' && /images\/.*\.png/.test(attribs.src)
 
 class Transcriber {
   constructor() {

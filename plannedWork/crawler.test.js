@@ -7,9 +7,10 @@ describe('getWorkBatches', function() {
 
     workBatches.forEach(batch => {
       const routes = Object.keys(batch.advisories)
-      const mssgCount = routes.reduce((num, route) => {
-        return num + batch.advisories[route].length
-      }, 0)
+      const mssgCount = routes.reduce(
+        (num, route) => num + batch.advisories[route].length,
+        0
+      )
 
       mssgCount.should.be.above(0)
     })
