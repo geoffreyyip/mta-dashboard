@@ -11,6 +11,7 @@ module.exports = {
         singleQuote: true,
       },
     ],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
   },
   overrides: [
     {

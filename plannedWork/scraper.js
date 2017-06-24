@@ -55,7 +55,7 @@ function getTitles(html) {
             name,
             attribs,
           })
-        currDepth++
+        currDepth += 1
       },
       ontext: str => {
         if (record.running)
@@ -65,7 +65,7 @@ function getTitles(html) {
           })
       },
       onclosetag: () => {
-        currDepth--
+        currDepth -= 1
         if (currDepth === entryDepth) {
           entryDepth = null
           record.stop()
