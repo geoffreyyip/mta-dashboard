@@ -8,22 +8,10 @@
   "description": "Performant mobile web site with instant transit info",
   "main": "index.js",
   "scripts": {
-    "_start": "node server.js",
-    "start": "npm-watch _start",
+    "start": "nodemon server.js --ext js,html,css",
     "lint": "nodemon --exec 'eslint **/*.js' --ext 'js'",
     "test": "mocha */*.test.js --watch --grep '(slow)' --invert --require ./globals.test",
     "test:all": "mocha */*.test.js --require ./globals.test"
-  },
-  "watch": {
-    "_start": {
-      "patterns": [
-        "**"
-      ],
-      "ignore": [
-        "node_modules"
-      ],
-      "extensions": "js, css, html"
-    }
   },
   "repository": {
     "type": "git",
