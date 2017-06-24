@@ -39,7 +39,7 @@ class DateRange {
 
   getType(date) {
     if (this.isWorkday(date)) return 'workday'
-    else return 'weekend'
+    return 'weekend'
   }
 
   isWorkday(date) {

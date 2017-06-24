@@ -28,7 +28,8 @@ exports.removeDuplicates = function(advisories) {
     result[route] = advisory.filter(message => {
       const item = JSON.stringify(message)
       if (isDuplicate(item)) return false
-      else markAsUsed(item)
+
+      markAsUsed(item)
       return true
     })
     return result
