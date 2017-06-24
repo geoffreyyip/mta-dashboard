@@ -1,5 +1,5 @@
-var axios = require('axios')
-var htmlparser = require('htmlparser2')
+const axios = require('axios')
+const htmlparser = require('htmlparser2')
 
 // matches `<a onclick="ShowHide(NUMBER);"><a/>`
 const isTitleTag = (name, attribs) => {

@@ -71,7 +71,7 @@ function generateImageMap(arr) {
    *
    * (E.g. "images/A.png": "A")
    */
-  var rawMap = arr.reduce((pairs, canonicalRoute) => {
+  const rawMap = arr.reduce((pairs, canonicalRoute) => {
     const userRoute = userRouteMap[canonicalRoute]
     pairs[`images/${canonicalRoute}.png`] = userRoute
     return pairs

@@ -1,9 +1,9 @@
-var moment = require('moment')
+const moment = require('moment')
 
-var MONDAY = 1
-var FRIDAY = 5
-var SATURDAY = 6
-var SUNDAY = 7
+const MONDAY = 1
+const FRIDAY = 5
+const SATURDAY = 6
+const SUNDAY = 7
 
 class DateRange {
   constructor(date) {
