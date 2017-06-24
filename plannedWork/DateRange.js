@@ -8,7 +8,7 @@ const SUNDAY = 7
 class DateRange {
   constructor(date) {
     const datetime = moment(date)
-    this.type = this.getType(datetime)
+    this.type = DateRange.getType(datetime)
 
     if (this.type === 'workday') {
       this.start = moment(datetime).isoWeekday(MONDAY)
@@ -37,16 +37,16 @@ class DateRange {
     return new DateRange(nextStart)
   }
 
-  getType(date) {
-    if (this.isWorkday(date)) return 'workday'
+  static getType(date) {
+    if (DateRange.isWorkday(date)) return 'workday'
     return 'weekend'
   }
 
-  isWorkday(date) {
+  static isWorkday(date) {
     return date.isoWeekday() < SATURDAY
   }
 
-  isWeekend(date) {
+  static isWeekend(date) {
     return date.isoWeekday() >= SATURDAY
   }
 }
