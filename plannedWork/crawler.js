@@ -41,24 +41,25 @@ function advisoriesByDate(datetime) {
  * @return Array[Object] - Batches of work for a specified
  *   date range
  */
-function getWorkBatches(num = 3, from = Date.now()) {
+async function getWorkBatches(num = 3, from = Date.now()) {
   const batches = []
   const start = new DateRange(from)
 
   for (let offset = 0; offset < num; offset++) {
     const dateRange = start.next(offset)
-    const advisories = advisoriesByDate(dateRange.end)
-    batches.push(
-      Promise.resolve(advisories).then(advisories => ({
-        type: dateRange.type,
-        start: dateRange.start.toDate(),
-        end: dateRange.end.toDate(),
-        advisories,
-      }))
-    )
+    batches.push({
+      type: dateRange.type,
+      start: dateRange.start.toDate(),
+      end: dateRange.end.toDate(),
+    })
   }
 
-  return Promise.all(batches)
+  return Promise.all(
+    batches.map(async batch => {
+      const advisories = await advisoriesByDate(batch.end)
+      return Object.assign({}, batch, { advisories })
+    })
+  )
 }
 
 module.exports = getWorkBatches
