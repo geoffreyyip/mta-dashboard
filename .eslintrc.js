@@ -12,6 +12,7 @@ module.exports = {
       },
     ],
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-console': ['off'],  // node envs want console.log
   },
   overrides: [
     {
