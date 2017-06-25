@@ -9,7 +9,7 @@ exports.dbURL =
   'mongodb://heroku_q0wnv9k0:r8lguve6kh0u47vifn400950jr@ds127949.mlab.com:27949/heroku_q0wnv9k0'
 
 // Subway lines
-exports.canonicalSubwayRoutes = canonicalSubwayRoutes = [
+const canonicalSubwayRoutes = [
   '1',
   '2',
   '3',
@@ -37,6 +37,8 @@ exports.canonicalSubwayRoutes = canonicalSubwayRoutes = [
   'H',
 ]
 
+exports.canonicalSubwayRoutes = canonicalSubwayRoutes
+
 /**
  * maps canonical routes to their subway user equivalents
  *
@@ -48,13 +50,15 @@ function getUserRouteMap(canonicalRoutes) {
     switch (route) {
       case 'GS':
       case 'FS':
-      case 'H':
-        mapping[route] = 'S'
-        break
-      default:
-        mapping[route] = route
+      case 'H': {
+        const newMap = { [route]: 'S' }
+        return Object.assign({}, mapping, newMap)
+      }
+      default: {
+        const newMap = { [route]: route }
+        return Object.assign({}, mapping, newMap)
+      }
     }
-    return mapping
   }, {})
 }
 
@@ -73,8 +77,9 @@ function generateImageMap(arr) {
    */
   const rawMap = arr.reduce((pairs, canonicalRoute) => {
     const userRoute = userRouteMap[canonicalRoute]
-    pairs[`images/${canonicalRoute}.png`] = userRoute
-    return pairs
+    const imageURL = `images/${canonicalRoute}.png`
+    const newPair = { [imageURL]: userRoute }
+    return Object.assign({}, pairs, newPair)
   }, {})
 
   return rawMap
