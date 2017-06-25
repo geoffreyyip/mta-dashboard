@@ -4,13 +4,13 @@ const { makeRoutesFilter, removeDuplicates } = require('./filters.js')
  * returns an exact copy of the passed in object but with one
  * property changed
  */
-const applyFilter = function(filter, object, prop) {
+const applyFilter = function applyFilter(filter, object, prop) {
   return Object.assign({}, object, { [prop]: filter(object[prop]) })
 }
 
 // apply multiple filters to a single workBatch
-const applyAdvisoryFilters = function(workBatch, filters) {
-  // eslint-disable-line no-param-reassign
+const applyAdvisoryFilters = function applyAdvisoryFilters(workBatch, filters) {
+  // eslint-disable-next-line no-param-reassign
   if (!Array.isArray(filters)) filters = [filters]
 
   // filters should be pure functions accepting and returning one object
@@ -20,13 +20,13 @@ const applyAdvisoryFilters = function(workBatch, filters) {
   )
 }
 
-exports.cleanSubwayData = function(workBatches) {
+exports.cleanSubwayData = function cleanSubwayData(workBatches) {
   return workBatches.map(workBatch =>
     applyAdvisoryFilters(workBatch, [removeDuplicates])
   )
 }
 
-exports.filterByRoutes = function(workBatches, routesToKeep) {
+exports.filterByRoutes = function filterByRoutes(workBatches, routesToKeep) {
   const routesFilter = makeRoutesFilter(routesToKeep)
   return workBatches.map(workBatch =>
     applyAdvisoryFilters(workBatch, [routesFilter])
