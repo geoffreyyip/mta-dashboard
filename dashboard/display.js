@@ -1,8 +1,9 @@
 const express = require('express')
-const router = new express.Router()
 
 const nextBusArrivals = require('../busArrivals/nextBusArrivals')
 const plannedWork = require('../plannedWork/query')
+
+const router = new express.Router()
 
 const {
   cleanSubwayData,

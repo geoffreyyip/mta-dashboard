@@ -2,6 +2,7 @@ const MongoClient = require('mongodb').MongoClient
 
 const { dbURL } = require('./constants.js')
 const getWorkBatches = require('./crawler.js')
+
 const plannedWork = getWorkBatches()
 
 MongoClient.connect(dbURL)
