@@ -10,7 +10,9 @@ const applyFilter = function(filter, object, prop) {
 
 // apply multiple filters to a single workBatch
 const applyAdvisoryFilters = function(workBatch, filters) {
-  if (!Array.isArray(filters)) filter = [filter]
+  // eslint-disable-line no-param-reassign
+  if (!Array.isArray(filters)) filters = [filters]
+
   // filters should be pure functions accepting and returning one object
   return filters.reduce(
     (result, filter) => applyFilter(filter, result, 'advisories'),
