@@ -27,6 +27,7 @@ describe('filterByRoutes', function() {
       const newAdvisories = workBatch.advisories
       const oldWorkBatch = workBatches[i]
       const oldAdvisories = routesToKeep.reduce((result, route) => {
+        // eslint-disable-next-line no-param-reassign
         result[route] = oldWorkBatch.advisories[route]
         return result
       }, {})
