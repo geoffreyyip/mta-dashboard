@@ -57,4 +57,3 @@ A few tests rely on network requests to complete, and run super slow. These test
 
 * Bus Stop Monitoring: Check when the next bus is coming. (This mostly needs UI work. See https://github.com/geoffreyyip/mta-dashboard/milestone/1)
 * Last-Minute Subway Changes (This will require integrating the service advisory API to match the planned-delays data format.)
-* 
