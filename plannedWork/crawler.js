@@ -6,9 +6,9 @@ const { baseURL, canonicalSubwayRoutes: routes } = require('./constants.js')
 
 function buildLink({ route, datetime }) {
   const date = moment(datetime)
-  return `${baseURL}?tag=${route}&date=${date.format(
-    'MM/DD/YYYY'
-  )}&time=&method=getstatus4`
+  const dateString = date.format('MM/DD/YYYY')
+
+  return `${baseURL}?tag=${route}&date=${dateString}&time=&method=getstatus4`
 }
 
 function advisoriesByDate(datetime) {
