@@ -12,6 +12,8 @@
       <h2>Settings</h2>
     </section>
     <form action="/dashboard" method="get">
+      <!--
+      TODO: busConfig milestone, check Github for next steps
       <fieldset class="busConfig">
         <legend>Find out when the next bus is arriving.</legend>
         <label for="busRoute">Bus Route</label>
@@ -19,8 +21,9 @@
         <label for="busStop">Bus Stop</label>
         <input type="text" name="busStop" id="busStop" value="308209">
       </fieldset>
+      -->
       <fieldset class="subwayConfig">
-        <legend>Find out about the upcoming subway delays.</legend>
+        <legend>Find out about upcoming train delays.</legend>
         {% for route in subwayRoutes %}
           <label class="subwayConfig__checkbox">
             <input type="checkbox" name="subwayRoutes[]" value="{{route}}">
